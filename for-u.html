@@ -1,0 +1,58 @@
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://lv3000.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://lv3000.likeadream.repl.co/script.js"></script>
+<head>
+</head>
+<body>
+<style>
+body{background-image: url("https://i.postimg.cc/mg3gmmB8/IMG-20211112-181440-797.jpg");background-repeat: no-repeat;background-size: 100% 100%;animation:none;transition:all .3s ease;}
+</style>
+<div id="konten">
+
+<div id="foto"><div class="image">
+<img id="photo" src="https://i.postimg.cc/zXNZhvZZ/hati.png" width="200px" height="200px"/></div>
+<span id="sp2"></span></div>
+
+<div id='slider'>
+  <p>Haii sayangg.. ツ</p>
+  <p>Akuu mau bilang nihh</p>
+  <p>Happy Anniversary yah sayang...❤</p>
+  <p>Semoga kita tetep bersama selalu..</p>
+  <p>Susah senang suka duka</p>
+  <p>Semoga semua bisa kita lewati bersama</p>
+  <p>Bismillah sama sama bisa siap ke jenjang berikutnya yah..</p>
+  <p>Sekali lagi, Happy Anniversary yah sayang❤❤</p>
+  <p><3 <3 <3</p>
+  <p>I Love U Honey &#9829;</p>
+  <p>Pencet LOVE ini dong~<label class='lovein' onClick="duar()">&#128158;</label></p>
+</div><div id="contTom"><a class='button whatsapp' onClick='bukaWa();'><i class='icon whatsapp'></i>Kirim</a></div>
+</div>
+<div id="bodyblur"></div>
+<script>  
+//Teks terakhir
+let a=0,finish;
+finish = "Happy Anniversary yah";
+
+function play() {
+//Link Audio Bisa Diganti
+  let audio = new Audio('https://dl188.dlmate04.xyz/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1hqTkFxenhVdFNwaE5xSTRuMHY3cmFQeEJPcTREaHFQcE45RkIrenFUU04rZWV5T1FwSkVsVVQyTTU0Vjd2emJEOXJFd1dOMTVDMU9xdmYrc2d5Vmppd0t3TFA3QUJlc1RQMUVqNWhKRnduTzl5TnJNcWtiV3BTbmpxbDNRS2lNUHZXWWlHYlBWNlk5QngyemZadnJoanNGVCtuVEdzczhaaTZIYnB3anN4dTlzNEkwZ0J4UWtOWU5MaEo3M2hnPT0%3D');
+  audio.play();
+}
+            
+//Opsi WhatsApp
+ function bukaWa(){window.location = "https://api.whatsapp.com/send?phone=&text=Hai, Aku udah liat semuanya <3" + "%0A%0A" + "Happy anniversary!" + "%0A%0A" + "Dikirim: " + dateTime;} 
+</script>
+ 
+<script type="text/javascript">            
+            let today = new Date();let date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear()+'.';let dateTime = date;
+            let swals = Swal.mixin({
+                allowOutsideClick: false,
+            });
+            async function mulai(){
+                    await swals.fire('Halo!');
+                    setTimeout(showDiv, 1000);play();                      
+            }
+            mulai();
+</script>
+
+</body>
+</html>
